@@ -25,7 +25,8 @@
   The system shows a message informing to the user.
 
 ## 🧾 Postcondiciones
-
+- A new user account is created in the system and stored in PostgreSQL.
+- The user can now log in using the registered credentials.
 
 ## ⚠️ Reglas de Negocio Relacionadas
 - Name length: 5, 50
