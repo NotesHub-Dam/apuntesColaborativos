@@ -24,15 +24,15 @@
 - **Existent user**  
   The system shows a message informing to the user.
 
-## 🧾 Postcondiciones
+## 🧾 Postconditions
 - A new user account is created in the system and stored in PostgreSQL.
 - The user can now log in using the registered credentials.
 
-## ⚠️ Reglas de Negocio Relacionadas
-- Name length: 5, 50
-- Last name length: 5, 50
+## ⚠️ Business Rules 
+- Name length: 3, 100
+- Last name length: 3, 100
 - Password: 8 chars, 1 Lower, 1 Capital letter, 1 Number
 - Email: Unique and valid format
 
-## 📌 Notas Técnicas
+## 📌 Technical Annotations
 - The password must send always encrypted
